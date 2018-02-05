@@ -2,6 +2,6 @@ var recipes = {};
 
 function updateObjectWithKeyAndValue (object, key, value) {
   var newkeyvalue = {key: value};
-  var newObj = Object.assign({}, newkeyvalue); //object parameter intelligently detected. Neat.
+  var newObj = Object.assign({}, newkeyvalue);
   return newObj;
 }
